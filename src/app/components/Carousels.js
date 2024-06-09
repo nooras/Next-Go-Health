@@ -32,7 +32,7 @@ function CarouselItems() {
     <div className='carousalSection justify-content-center align-items-center text-center'>
       <Carousel className='d-flex justify-content-center align-items-center'>
         {slides.map(({ photo }, i) => (
-        <Carousel.Item interval={2000}>
+        <Carousel.Item key={i} interval={2000}>
           <img text="First slide" width={800} height={500} src={photo} />
         </Carousel.Item>))}
       </Carousel>

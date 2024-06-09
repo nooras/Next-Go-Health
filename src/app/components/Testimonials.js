@@ -48,7 +48,7 @@ export default function Header() {
       <br></br><h1 className=""><b>Hear from Community member</b></h1>
       <div className="row justify-content-center align-items-center text-center">
         {testimonialList.map(({ name, content, position, from, photo }, i) => (
-          <TestimonialCard img={photo} name={name} text={content} index={i} />
+          <TestimonialCard key={i} img={photo} name={name} text={content} index={i} />
         ))}
       </div>
     </div>
