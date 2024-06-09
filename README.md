@@ -1,5 +1,7 @@
 ## Go Health Community Landing Page
 
+Live: https://go-health.netlify.app/
+
 ![alt text](https://github.com/nooras/Next-Go-Health/blob/main/GoHealth.png?raw=true)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
